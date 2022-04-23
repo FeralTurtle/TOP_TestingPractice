@@ -13,7 +13,4 @@ const calculator = {
     multiply: (a, b) => a * b,
 };
 
-const analyzeArray = (numberArray) => {
-};
-
-export { capitalize, reverseString, calculator, analyzeArray };
+export { capitalize, reverseString, calculator };
