@@ -3,20 +3,20 @@ const capitalize = (string) => {
 };
 
 const reverseString = (string) => {
-    //return reversed string
+    return string.split('').reverse().join('');
 };
 
-const calculator = (a, b) => {
-    //should have these functions: add, subtract, divide, multiply
-    //each function should take the two parameters and return the correct calculation
+const calculator = {
+    add: (a, b) => a + b,
+    subtract: (a, b) => a - b,
+    divide: (a, b) => a / b,
+    multiply: (a, b) => a * b,
 };
 
 const caesarCipher = (string) => {
-    //takes the string and returns it with each character "shifted"
 };
 
 const analyzeArray = (numberArray) => {
-    //return an object with the following properties: average, min, max, and length
 };
 
 export { capitalize, reverseString, calculator, caesarCipher, analyzeArray };
