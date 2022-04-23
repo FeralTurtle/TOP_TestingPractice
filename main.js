@@ -13,10 +13,7 @@ const calculator = {
     multiply: (a, b) => a * b,
 };
 
-const caesarCipher = (string) => {
-};
-
 const analyzeArray = (numberArray) => {
 };
 
-export { capitalize, reverseString, calculator, caesarCipher, analyzeArray };
+export { capitalize, reverseString, calculator, analyzeArray };
